@@ -1,0 +1,266 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+ }
+ header{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 80px;
+}
+.icon{
+    margin-top: 2px;
+    width: 150px;
+    margin-left:60px ;
+}
+.btn1{
+    float: right;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    margin-right: 70px;
+    margin-top: 25px;
+    width: 85px;
+    height: 35px;
+    text-align: center;
+    font-size: medium;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+#head-div{
+    /* border: 2px solid green; */
+    width: 100%;
+    height:600px;
+    background-image: url(bimg.jpg);
+    object-fit: cover;
+  
+}
+.overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    );
+}
+.middle{
+    /* border: 2px solid pink; */
+    width: 50%;
+    height:400px;
+    margin: auto;
+    margin-top: 80px;
+   
+}
+.inp{
+    margin: auto;
+    width: 420px;
+    height: 55px;
+    border: none;
+}
+.btn2{
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    width: 190px;
+    height: 57px;
+    font-size: large;
+}
+.entry{
+    margin-top: 10px 
+} 
+hr{
+    border: 3px solid rgb(129, 127, 127);
+    background-color: grey;
+}
+.watch{
+    border: 2px solid black;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    color: white;
+    
+}
+.enjoy{
+    border: 2px solid black;
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+}
+.firsten{
+    /* border: 2px solid yellow; */
+    width: 40%;
+    width: 40%;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: center;
+   
+}
+.secen{
+    /* border: 2px solid blue; */
+    width: 40%;
+    height: 90%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.viddiv{
+    /* border: 2px solid red; */
+    width: 29%;
+    height: 34%;
+    margin-top: 75px;
+    margin-left: 66px;
+    /* margin-bottom: 50px; */
+    position: absolute;
+    z-index: 0;
+    
+}
+.vid{
+    width: 100%;
+    height: 100%;
+    /* margin-top: 10px; */
+    /* margin-bottom: 50px; */
+    position: absolute;
+    /* z-index: -1; */
+}
+.mobile{
+    border: 2px solid black;
+    background-color: black;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center; 
+    gap: 150px;  
+}
+.firstmo{
+    width: 40%;
+    height: 95%;
+    margin-top: 30px;
+    
+}
+.secmo{
+    width: 40%;
+    height: 90%;
+    margin-top: 100px;
+    color: white;
+   
+}
+.create{
+    border: 2px solid black;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center; 
+    gap: 150px;  
+}
+.firstcr{
+    /* border: 2px solid blue; */
+    width: 40%;
+    height: 90%;
+    margin-top: 30px;
+    color: white;
+    
+}
+.seccr{
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 70%;
+    color: white;
+    margin-top: 100px;
+}
+.freq{
+    border: 2px solid black;
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    color: white;
+}
+.faq{
+    border: 2px solid #303030;
+    background-color:  #303030;
+    width: 65%;
+    height: 70px;
+    margin-bottom: 15px;
+    text-align:left;
+    color: white;
+    padding-left: 10px;
+    font-size:x-large ;
+}
+footer{
+    background-color: black;
+    border: 2px solid black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    
+}
+.f1{
+    width: 15%;
+    height: 300px;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.f2{
+    width: 15%;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.f3{
+    width: 15%;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.f4{
+    width: 15%;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+a{
+    margin-bottom: 20px;
+    display: block;
+    color: #303030;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.gif-box{
+    border: 2px solid #565555;
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    gap: 15px;
+}
+.g1{
+    width: 20%;
+    height: 100%;
+    margin-left: 10px;
+}
+.g2{
+    width: 50%;
+    height: 100%;
+   padding-left: 20px;
+   padding-top: 25px;
+ 
+}
+.g3{
+    width: 20%;
+    height: 100%;
+}
